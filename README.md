@@ -40,18 +40,20 @@
 ```bash
 git clone https://github.com/MADA081/old_rebel_site_dyna.git
 cd old_rebel_site_dyna
-2️⃣ Переключитесь на ветку main и синхронизируйтесь
+2️⃣ Переключитесь на ветку main
 bash
 git checkout main
+3️⃣ Синхронизируйтесь с удалённым репозиторием
+bash
 git pull
-3️⃣ Инициализируйте Git (если нужно)
+4️⃣ Инициализируйте Git (если проект новый)
 bash
 git init
 git add .
 git commit -m "Initial commit"
 git remote add origin https://github.com/MADA081/old_rebel_site_dyna.git
 git push -u origin main
-4️⃣ Запустите локальный сервер
+5️⃣ Запустите локальный сервер разработки
 bash
 python manage.py runserver
 ✅ Готово! Открывайте http://127.0.0.1:8000 и наслаждайтесь 🏁
