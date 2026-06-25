@@ -1,3 +1,3 @@
 ### 2️⃣ Переключитесь на ветку main
-''' bash
+``` bash
 git checkout main
