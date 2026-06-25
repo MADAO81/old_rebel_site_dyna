@@ -1,4 +1,5 @@
 # 💀 Old Rebel
+
 ## Энциклопедия мотоциклов Harley-Davidson Dyna (1971–2017)
 
 ---
@@ -7,11 +8,13 @@
 
 Сайт посвящён легендарному семейству мотоциклов Dyna — от момента создания до завершения выпуска в 2017 году.
 
-Здесь вы найдёте:
+---
+
+## 🎯 Задачи
 
 - 📸 Фотографии культовых моделей
 - ⚙️ Технические характеристики
-- 📜 Историю и интересные факты
+- 📜 История и интересные факты
 - 🔧 Модельный ряд: Super Glide, Fat Bob, Switchback и другие
 
 ❤️ **Сделано с любовью к двухколёсной классике**
@@ -35,36 +38,26 @@
 ### 1️⃣ Клонируйте репозиторий
 
 ```bash
-git clone https://github.com/MADAO81/old_rebel_site_dyna.git
+git clone https://github.com/MADA081/old_rebel_site_dyna.git
 cd old_rebel_site_dyna
-2️⃣ Создайте виртуальное окружение
+2️⃣ Переключитесь на ветку main и синхронизируйтесь
 bash
-python -m venv venv
-3️⃣ Активируйте его
-Windows 🪟
-
+git checkout main
+git pull
+3️⃣ Инициализируйте Git (если нужно)
 bash
-venv\Scripts\activate
-Linux / Mac 🐧🍏
-
-bash
-source venv/bin/activate
-4️⃣ Установите зависимости
-bash
-pip install -r requirements.txt
-5️⃣ Примените миграции БД
-bash
-python manage.py migrate
-6️⃣ Создайте суперпользователя (админку)
-bash
-python manage.py createsuperuser
-7️⃣ Запустите локальный сервер
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/MADA081/old_rebel_site_dyna.git
+git push -u origin main
+4️⃣ Запустите локальный сервер
 bash
 python manage.py runserver
 ✅ Готово! Открывайте http://127.0.0.1:8000 и наслаждайтесь 🏁
 
 📜 Лицензия
-© 2026 MADAO81. Все права защищены.
+© 2026 MADA081. Все права защищены.
 🔒 Материалы сайта не могут быть скопированы или распространены без разрешения автора.
 
 🙌 Бонус: быстрые команды
@@ -90,6 +83,6 @@ python manage.py runserver
 🤝 Контакты
 Если есть вопросы, идеи или баг-репорты — пишите:
 📧 chernyshev.evgeniy@gmail.com
-🐙 GitHub: MADAO81
+🐙 GitHub: MADA081
 
 💀 Dyna — это не просто мотоцикл, это стиль жизни. Присоединяйтесь! 💀
